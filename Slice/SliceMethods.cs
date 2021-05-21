@@ -34,6 +34,7 @@ namespace Slice
             obj = new object();
             objList = new object();
             sliceObj = new Lazy<SliceObj>();
+            sliceObjList = new Lazy<SliceObj>();
         }
         
     }
