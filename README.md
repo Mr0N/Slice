@@ -6,6 +6,8 @@
 
 
   string str = "<title> Slice </title>";
+  
+  
   string result = str.Slice("<title>","<title/>")
 
   
@@ -14,6 +16,7 @@
   
   
 string str =<t>1</t><t>2</t><t>3</t><t>4</t><t>5</t>;
- var result = str.Slice("<t>","</t>")
+ 
+  var result = str.Slice("<t>","</t>")
  
   , в переміні result будуть значення від 1 до 5. 
