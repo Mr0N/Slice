@@ -20,12 +20,13 @@ namespace Slice
         {
             lock (objList)
             {
-                var result = sliceObj.Value;
+                var result = sliceObjList.Value;
                 return result.ParsStringArray(text ?? "", begin, end);
             }
         }
         
         static Lazy<SliceObj> sliceObj;
+        static Lazy<SliceObj> sliceObjList;
         static object obj;
         static object objList;
         static SliceMethods()
