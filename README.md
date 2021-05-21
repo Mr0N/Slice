@@ -17,6 +17,6 @@
   
 string str ="[t]1[/x][t]2[/x][t]3[/x][t]4[/x][t]5[/x]";
  
-  var result = str.Slice("[t]","[/x]")
+  var result = str.SliceInfo("[t]","[/x]")
  
   , в переміні result будуть значення від 1 до 5. 
