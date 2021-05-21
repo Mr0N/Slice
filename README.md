@@ -5,7 +5,7 @@
 
 
 
-  string str = "<title> Slice </title>";
+  string str = "<title>Slice</title>";
   
   
   string result = str.Slice("<title>","</title>")
