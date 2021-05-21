@@ -8,7 +8,7 @@
   string str = "<title> Slice </title>";
   
   
-  string result = str.Slice("<title>","<title/>")
+  string result = str.Slice("<title>","</title>")
 
   
   в переміні result буде значення, Slice.А що робити якщо є текст подібний цьому:"[t]1[/x][t]2[/x][t]3[/x][t]4[/x][t]5[/x]", і потрібно витягнути звідси цифри,від 1 до 5?Для цього є
