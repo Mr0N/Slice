@@ -19,6 +19,7 @@ namespace TestProject
             string result = "<12345>".Slice("<", ">");
             Assert.AreEqual("12345", result);
         }
+        [Test]
         public void TestSliceCoolection()
         {
            var result =  "1<1>".SliceInfo("<", ">");
